@@ -17,3 +17,4 @@ rotLeft(arrayA, repeatD);
 
 // maybe add another for loop that states that if j <= repeatD, it should proceed with the loop and once it's equal to repeatD integer, it should stop it.
 // it's possible that you should add the if statement within this for loop. You need only X elements to be moved, where X is === repeatD.
+// test - adding a comment line.
