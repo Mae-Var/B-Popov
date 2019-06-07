@@ -10,7 +10,8 @@ const twoDimensionArr = [
 // Complete the hourglassSum function below.
 
 function hourglassSum(arr) {
-    sad
+  let patternArr = [[1, 1, 1],[0, 1, 0],[1, 1, 1]]; //Pattern Array, read more on that on Google.
+
 }
 
 function main() {
@@ -23,3 +24,4 @@ function main() {
   }
   let result = hourglassSum(arr);
 }
+
