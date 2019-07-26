@@ -10,18 +10,23 @@ const twoDimensionArr = [
 // Complete the hourglassSum function below.
 
 function hourglassSum(arr) {
-  let patternArr = [[1, 1, 1],[0, 1, 0],[1, 1, 1]]; //Pattern Array, read more on that on Google.
-
+  let patternArr = [
+  [1, 1, 1],
+  [0, 1, 0],
+  [1, 1, 1]]; //Pattern Array, read more on that on Google.
+  for (let i = 0; i < arr.length - patternArr.length + 1; )
 }
 
-function main() {
-  let arr = Array(6);
 
-  for (let i = 0; i < 6; i++) {
-    arr[i] = readLine()
-      .split(' ')
-      .map(arrTemp => parseInt(arrTemp, 10));
-  }
-  let result = hourglassSum(arr);
-}
+
+// function main() {
+//   let arr = Array(6);
+
+//   for (let i = 0; i < 6; i++) {
+//     arr[i] = readLine()
+//       .split(' ')
+//       .map(arrTemp => parseInt(arrTemp, 10));
+//   }
+//   let result = hourglassSum(arr);
+// }
 
