@@ -1,4 +1,4 @@
-let arrayOriginal = [1, 2, 3, 4, 5, 6, 7];
+let arrayOriginal = [1, 2, 3, 10, 5, 6, 7];
 
 // Solution (v1)
 
@@ -13,7 +13,7 @@ let arrayOriginal = [1, 2, 3, 4, 5, 6, 7];
 
 // Hard way below, coz Zah's needy :D
 
-// Solution (v2)
+// Solution (v2) - just a reversal.
 
 const a2Reverse = revThis => {
   let i = 0;
@@ -30,7 +30,7 @@ const a2Reverse = revThis => {
 
 console.log(a2Reverse(arrayOriginal));
 
-// Solution (v3)
+// Solution (v3) by size!
 
 const a3Reverse = inputArr => {
   for (let i = 0; i < inputArr.length; i++) {
